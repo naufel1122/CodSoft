@@ -183,3 +183,9 @@ span{
     background-color: var(--main-color);
     color: black ;
 }
+.text-animation{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+/* .text-animation  */
