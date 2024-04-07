@@ -235,37 +235,46 @@ span {
     width: calc(100% + 8px);
     height: 100%;
     border-left: 3px solid var(--bg-color);
-    right:-8px;
-    animation: cursor 0.6s infinite, typing 20s steps(14)  infinite;
+    right: -8px;
+    animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
 }
-@keyframes cursor{
-    to{
+
+@keyframes cursor {
+    to {
         border-left: 2px solid var(--main-color);
     }
 }
-@keyframes words{
+
+@keyframes words {
+
     0%,
-    20%{
+    20% {
         content: 'Front-End Developer';
     }
+
     21%,
-    40%{
+    40% {
         content: 'web Designer';
     }
+
     41%,
-    60%{
-        content: 'UI / UX  Designer' ;
+    60% {
+        content: 'UI / UX  Designer';
     }
+
     61%,
-    80%{
+    80% {
         content: 'Web Developer';
     }
+
     81%,
-    100%{
+    100% {
         content: 'Software Tester';
     }
 }
-@keyframes typing{
+
+@keyframes typing {
+
     10%,
     15%,
     30%,
@@ -275,9 +284,10 @@ span {
     70%,
     75%,
     90%,
-    95%{
+    95% {
         width: 0;
     }
+
     5%,
     20%,
     25%,
@@ -286,7 +296,85 @@ span {
     60%,
     65%,
     80%,
-    85%{
+    85% {
         width: calc(100% + 8px);
     }
+}
+
+.heading {
+    font-size: 8rem;
+    text-align: center;
+    margin: 5rem 0;
+    color: var(--text-color);
+}
+
+.education {
+    padding: 100px 15px;
+    background: var(--second-bg-color);
+}
+
+.education h2 {
+    margin-bottom: 5rem;
+}
+
+.timeline-items {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.timeline-items::before {
+    content: '';
+    position: 5px;
+    width: 5px;
+    height: 100%;
+    background-color: var(--main-color);
+    left: calc(50% - 1px);
+}
+
+.timeline-item {
+    margin-bottom: 40px;
+    width: 100%;
+    position: relative;
+    color: var(--text-color);
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-item:nth-child(odd) {
+    padding-right: calc(50% + 30px);
+    text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+    padding-left: calc(50% + 30px);
+}
+
+.timeline-dot {
+    height: 21px;
+    width: 21px;
+    background-color: var(--main-color);
+    box-shadow: 0 0 25px var(--main-color),
+                0 0 50px var(--main-color);
+    position: absolute;
+    left:calc(50% - 8px);
+    border-radius:50%;
+    top: 10px;
+}
+.timeline-date{
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    margin: 6px 0  15px;
+}
+.timeline-content{
+    background-color: var(--bg-color);
+    border: 3px solid var(--main-color);
+    padding: 30px 50px;
+    border-radius: 4rem;
+    box-shadow: 0 0 10px var(--main-color);
 }
