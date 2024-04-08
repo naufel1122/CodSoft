@@ -61,7 +61,7 @@ body {
     color: var(--text-color);
     margin-right: 4rem;
     font-weight: 500;
-    transition: 0.3 ease;
+    transition: 0.3s ease;
     border-bottom: 3px solid transparent;
 }
 
