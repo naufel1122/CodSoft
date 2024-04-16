@@ -124,33 +124,34 @@ const technologies = [
 
 const experiences = [
   {
+    title: 'Internship',
+    company_name: 'Codsoft',
+    icon: kelhel,
+    iconBg: '#333333',
+    date: 'APRIL 2023 ',
+  },
+  {
     title: 'Front-End Developer',
     company_name: 'Cover Hunt',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: ' Octuber 2023 ',
   },
   {
     title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    company_name: 'DIGIALPHA X',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'NOVEMBER 2023',
   },
-  {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
-  },
+  
+  // {
+  //   title: 'Full Stack Developer',
+  //   company_name: 'Diversity Cyber Council',
+  //   icon: dcc,
+  //   iconBg: '#333333',
+  //   date: 'Sep 2022 - Present',
+  // },
 ];
 
 const projects = [
