@@ -37,12 +37,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        I am a passionate MERN Stack Frontend Developer with a strong commitment to crafting seamless and user-friendly web applications. With expertise in React.js, Redux, and a keen eye for design, I specialize in bringing engaging user interfaces to life. My dedication to creating responsive and intuitive web experiences is matched by my proficiency in HTML, CSS, and JavaScript. I thrive in collaborative environments, continually seeking opportunities to learn and adapt to emerging technologies. Let's connect and collaborate to bring your web development projects to the next level!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
