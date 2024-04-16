@@ -28,7 +28,10 @@ const Navbar = () => {
 
           {/* if you have text you want besides your logo it comes here.
           Otherwise delete this if you don't need it. */}
-          <h1 className='bg-black'>Muhammad Naufel</h1>
+          <div>
+            {/* Apply inline styles directly within the style attribute */}
+            <h1 style={{color: 'black',fontSize: '24px',fontWeight:'900', }}> NAUFEL</h1>
+          </div>
           {/* <img
             src={logotext}
             alt="logo"
@@ -39,9 +42,8 @@ const Navbar = () => {
           {navLinks.map((nav) => (
             <li
               key={nav.id}
-              className={`${
-                active === nav.title ? 'text-french' : 'text-eerieBlack'
-              } hover:text-taupe text-[21px] font-medium font-mova 
+              className={`${active === nav.title ? 'text-french' : 'text-eerieBlack'
+                } hover:text-taupe text-[21px] font-medium font-mova 
                 uppercase tracking-[3px] cursor-pointer nav-links`}
               onClick={() => setActive(nav.title)}>
               <a href={`#${nav.id}`}>{nav.title}</a>
@@ -54,8 +56,7 @@ const Navbar = () => {
           {toggle ? (
             <div
               className={`p-6 bg-flashWhite opacity-[0.98] absolute 
-                top-0 left-0 w-screen h-[100vh] z-10 menu ${
-                  toggle ? 'menu-open' : 'menu-close'
+                top-0 left-0 w-screen h-[100vh] z-10 menu ${toggle ? 'menu-open' : 'menu-close'
                 }`}>
               <div className="flex justify-end">
                 <img
@@ -67,14 +68,13 @@ const Navbar = () => {
               </div>
               <ul
                 className="list-none flex flex-col -gap-[1rem] 
-                items-start justify-end mt-[10rem] -ml-[35px]">
+                items-start justify-end mt-[10rem] -ml-[2px]">
                 {navLinks.map((nav) => (
                   <li
                     id={nav.id}
                     key={nav.id}
-                    className={`${
-                      active === nav.title ? 'text-french' : 'text-eerieBlack'
-                    } text-[88px] font-bold font-arenq 
+                    className={`${active === nav.title ? 'text-french' : 'text-eerieBlack'
+                      } text-[88px] font-bold font-arenq 
                       uppercase tracking-[1px] cursor-pointer`}
                     onClick={() => {
                       setToggle(!toggle);
