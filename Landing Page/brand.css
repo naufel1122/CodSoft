@@ -120,15 +120,22 @@ a {
   z-index: -999;
 }
 
-@media screen and (max-width: 768px) {
+@media  (max-width: 768px) {
   .top {
     width: 100%;
     height: 100vh;
     object-fit: cover;
   }
+  .text h1{
+    /* font-size: 24px; */
+    /* color: #eaeaeade; */
+  }
+  .text  .h1-2 {
+    /* font-size: 1rem; */
+  }
 }
 
-.text {
+.top .text {
   text-align: center;
   padding: 0 200px;
   font-weight: bold;
@@ -139,25 +146,16 @@ a {
   font-style: normal;
 }
 
-.text h1 {
-  font-size: 2.4vw;
-
-  /* font-size: 10vw; */
-  /* font-weight: 800; */
-  /* color: #bbb2b238; */
+.top .text h1 {
+  font-size: 2.5em;
   color: #eaeaeade;
 }
 
-.text p {
-  text-align: center;
-  /* font-weight: bold; */
-  /* font-family: "Poppins", sans-serif; */
-  /* color: #bbb2b259; */
-  color: #bbb2b238;
-  /* font-size: 6vw; */
-
-  /* font:900 1.5/10rem white; */
+.text  .h1-2 {
+  font-size: 2.5em;
 }
+
+
 
 /* ========== */
 
