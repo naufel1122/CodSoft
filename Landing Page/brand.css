@@ -142,20 +142,25 @@ a {
   /* font-family: "Poppins", sans-serif; */
   font-family: "Source Sans 3", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 600;
   font-style: normal;
 }
 
 .top .text h1 {
   font-size: 2.5em;
   color: #eaeaeade;
+  letter-spacing: 4px;
 }
 
 .text  .h1-2 {
   font-size: 2.5em;
 }
 
-
+.top-paragraph{
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 10px;
+}
 
 /* ========== */
 
